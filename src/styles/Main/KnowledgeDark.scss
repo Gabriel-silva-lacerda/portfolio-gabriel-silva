@@ -1,0 +1,23 @@
+@import "../Variables/Variables.scss";
+
+.dark {
+    .knowledge {
+        .list-knowledge {
+            .skills {
+                p {
+                    font-size: 2.3rem;
+                    color: $white;
+                }
+            }
+            .certificate {
+                background: linear-gradient(#6834ec, $purbleDark);
+                a  {
+                    color: $white;
+                }
+                &:hover {
+                    background: linear-gradient($colorHover1, $colorHover2);
+                }
+            }
+        }  
+    } 
+}

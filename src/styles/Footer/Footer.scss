@@ -1,0 +1,146 @@
+@import "../Variables/Variables.scss";
+
+.footer-container {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    padding: 0px 20px 20px 20px;
+    transition: all .5s;
+    .footer-contact {
+        max-width: 1320px;
+        margin: 80px auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        .contact-description {
+            max-width: 600px;
+            h1 {
+                font-size: 4.3rem;
+                margin-bottom: 30px;
+                color: $black;
+            }
+            p {
+                color: $lightBlack;
+                font-family: $fontHebbo;
+                font-size: 1.1rem;
+            }
+        }
+    }
+    form {
+        .single-input {
+            position: relative;
+            margin-bottom: 20px;
+            input {
+                border: none;
+                border-bottom: 2px solid $purple;
+                max-width: 500px;
+                width: 100%;
+                outline: none;
+                padding: 10px;
+                font-size: 1rem;
+                cursor: text;
+                z-index: 2;
+                &:focus {
+                    border-bottom: 2px solid  #30268b;
+                }
+                &:valid {
+                    border-bottom: 2px solid #90ee90;
+                }
+                &:hover ~ label{
+                   transform: translateY(-28px);
+                }
+                &:focus ~ label{
+                    transform: translateY(-28px);
+                 }
+                &:valid ~ label {
+                    transform: translateY(-28px);
+                }
+            }
+            label {
+                font-size: 1rem;
+                position: absolute;
+                left: 0;
+                bottom: 5px;
+                color: rgb(150, 150, 150);
+                z-index: 1;
+                transition: 0.5s ease-in-out;
+            }
+        }
+        .text-area {
+            padding-top: 20px;
+            position: relative;
+            textarea {
+                border: none;
+                border-bottom: 2px solid $purple;
+                outline: none;
+                width: 100%;
+                &:focus {
+                    border-bottom: 2px solid #3e368b;
+                }
+                &:valid {
+                    border-bottom: 2px solid #90ee90;
+                }
+                &:hover ~ label{
+                   transform: translateY(-28px);
+                }
+                &:focus ~ label{
+                    transform: translateY(-28px);
+                 }
+                &:valid ~ label {
+                    transform: translateY(-28px);
+                }
+            }
+            label {
+                font-size: 1rem;
+                position: absolute;
+                left: 0;
+                top: 24px;
+                color: rgb(150, 150, 150);
+                z-index: 1;
+                transition: 0.5s ease-in-out;
+                
+            }
+        }
+        .button-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+            button {
+                display: block;
+                border: none;
+                border-bottom: 2px solid $purple;
+                background: none;
+                padding: 10px;
+                cursor: pointer;
+                text-transform: uppercase;
+                &:hover{
+                    background: $purple;
+                    transition: .5s;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+    .contact-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1320px;
+        margin: 100px auto 30px auto;
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: $purple;
+            top: -140%;
+            position: absolute;
+            transition: 0.4s;
+        }
+        .icons {
+            span {
+                display: inline-block;
+                margin-left: 15px;
+            }
+        }
+    }
+}

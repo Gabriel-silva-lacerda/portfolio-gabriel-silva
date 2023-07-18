@@ -1,0 +1,49 @@
+@import "../Variables/Variables.scss";
+
+.header.dark {
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 5px;
+    h2 {
+       
+        &::after {
+            background: $purbleDark;
+        }
+    }
+    h2 {
+        color: $white;
+    }
+    .nav {
+        li {
+            &::after {
+                background: $purbleDark;
+            }
+            a {
+                color: $white;
+            }
+        }
+        .btn {
+            background: $black;
+            border: 2px solid $white;
+            &::before {
+                transform: translateX(-112%);
+                transition: all .5s;
+                background: $white;
+            }
+            .light {
+                color: $white;
+            }
+        }
+    }
+    .btn-mobile {
+        .hamburguer {
+            border-top: 2px solid $white;
+            &::after, &::before {
+                
+                background: $white;
+
+            }
+        }
+    }
+    
+}
+  

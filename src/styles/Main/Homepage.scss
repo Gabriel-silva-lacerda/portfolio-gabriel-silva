@@ -1,0 +1,122 @@
+@import "../Variables/Variables.scss";
+
+.home-page {
+    margin-top: 4.5rem;
+    padding: 0px 1.2rem;
+    .especification {
+        @include displayFlex();
+        gap: 10px;
+        position: relative;
+        &::after {
+            content: "";
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: $purple;
+            bottom: -15%;
+            position: absolute;
+            transition: 0.4s;
+        }
+        h1 {
+            font-size: 4.3rem;
+            max-width: 800px;
+            color: $black;
+            position: relative;
+            &::before {
+                content: "";
+                display: block;
+                height: 30px;
+                width: 30px;
+                background-color: $purple;
+                top: 7px;
+                position: absolute;
+                transition: 0.4s;
+                z-index: -1;
+                border-radius: 4px;
+            }
+        }
+        .name {
+            font-size: 4.3rem;
+            border-bottom: 6px solid $purple;
+        }
+        p {
+            color: $lightBlack;
+            font-weight: normal;
+            font-family: $fontHebbo;
+            max-width: 750px;
+            font-size: 1.1rem;
+            margin: 30px 0px;
+            letter-spacing: .2px;
+        }
+        .strong {
+            font-weight: bold;
+        }
+        .contact-perfil {
+            @include displayFlex();
+            justify-content: initial;
+          
+            .contact {
+                font-size: 1.1rem;
+                text-transform: uppercase;
+                color: $lightBlack;
+                border-bottom: 2px solid $purple;
+                font-family: $fontHebbo;
+                margin-right: 35px;
+                position: relative;
+                &::before {
+                    content: "→";
+                    right: -20px;
+                    color: $purple;
+                    position: absolute;
+                    animation: 0.5s ease-in 0s infinite alternate none running arrow;
+                }
+             
+                @keyframes arrow {
+                    from {
+                      transform: translateX(12px);
+                    }
+                    to {
+                      transform: translateX(5px);
+                    }
+                  }
+            }
+        }
+    }
+    .photo-perfil {
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            height: 97%;
+            width: 1px;
+            background-color: transparent;
+            border: 2px solid $purple;
+            top: 0;
+            right: 0;
+            position: absolute;
+            transition: 0.4s;
+        }
+        &::after {
+            content: "";
+            display: block;
+            height: 1px;
+            width: 99%;
+            background-color: transparent;
+            border: 2px solid $purple;
+            top: 0;
+            left: 0;
+            position: absolute;
+            transition: 0.4s;
+        }
+        
+        img {
+            max-width: 500px;
+            width: 100%;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            object-fit: cover;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+    }
+}
+

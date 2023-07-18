@@ -1,0 +1,24 @@
+@media (max-width: 800px) {
+    .knowledge {
+        padding: 200px 20px 0px 20px;
+        .knowledge-container{
+            .list-knowledge {
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-items: center;
+          
+            } 
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .knowledge {
+        .knowledge-container{
+            .list-knowledge {
+                grid-template-columns: 1fr;
+            } 
+        }
+    }
+}
+

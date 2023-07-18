@@ -1,0 +1,47 @@
+@import "../Variables/Variables.scss";
+
+.knowledge {
+    padding: 200px 20px 0px 20px;
+    .knowledge-container{
+        // display: flex;
+        .list-knowledge {
+            display: grid;
+            grid-template-columns: 3fr 3fr 1fr;
+            gap: 20px;
+            list-style: none;
+            .skills {
+                display: flex;
+                align-items: center;
+                p {
+                    font-size: 2.3rem;
+                    color: $black;
+                }        
+                .html {
+                    width: 50px;
+                    margin-left: 5px;
+                }
+            }
+            .certificate {
+                font-weight: 500;
+                display: inline-block;
+                margin-top: 10px;
+                background: linear-gradient($colorButton, $purple);
+                border-radius: 4px;
+                padding: 15px 0;
+                font-size: 1.1rem;
+                border: none;
+                cursor: pointer;
+               
+                &:hover {
+                    background: linear-gradient($colorHover1, $colorHover2);
+                }
+                &:disabled {
+                   background: #e7e7e7	;
+                }
+                a {
+                    padding: 15px 20px;
+                }
+            }
+        }
+    }   
+}

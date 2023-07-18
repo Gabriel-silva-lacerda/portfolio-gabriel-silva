@@ -1,0 +1,51 @@
+@import "../Variables/Variables.scss";
+
+.footer-container.dark {
+    border-color: rgba(0, 0, 0, 0.3);
+    transition: all .5s;
+    .contact-description {
+        h1 {
+            color: $white;
+        }
+        p {
+            color: $blackDark;
+        }
+    }
+    .point {
+        color: $purbleDark;
+    }
+    form {
+        .single-input {
+            input {
+                background-color: transparent;
+                color: $white;
+                &:focus {
+                    border-bottom: 2px solid  $purbleDark;
+                }
+            }
+        }
+        textarea{
+            background-color: transparent;
+            color: $white;
+            &:focus {
+                border-bottom: 2px solid  $purbleDark;
+            }
+        }
+        button {
+            color: $white;
+        }
+    }
+    .contact-icons {
+        .logo {
+            color: $white;
+            border-color: $purbleDark;
+        }
+        &::before {
+            background-color:  $purbleDark;
+
+        }
+        i {
+            color: $white;
+        }
+    }
+}

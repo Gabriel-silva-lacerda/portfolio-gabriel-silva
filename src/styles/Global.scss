@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+@import "./Variables/Variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+    font-family: $fontHebbo;
+}
+
+label,
+button,
+input {
+    display: block;
+}
+
+.dark {
+    transition: all .5s;
+    background-color: $themeDark;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: $black;
+    font-weight: bold;
+}
+
+.point {
+    color: $purple;
+}
+
+.icon i {
+    font-size: 2rem;
+    margin-left: 10px;
+}
+

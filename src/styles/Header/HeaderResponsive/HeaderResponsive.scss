@@ -1,0 +1,78 @@
+@media (max-width: 800px) {
+    .header {
+        .nav {
+            transition: .6s;
+            ul {
+                display: none;
+                position: absolute;
+                width: 100%;
+                top: 70px;
+                background: rgba(83, 83, 83, 0.5);
+                height: 0;
+                width: 100%;
+                z-index: 70;
+                backdrop-filter: blur(20px);
+                visibility: hidden;
+                transform: translate(-20px);
+                opacity: 0;
+            }
+        }
+        .nav.active {
+           
+            transition: .6s;
+            .hamburguer {
+               border-top-color: transparent;
+               
+               &::before {
+                transform: rotate(135deg);
+               }
+               &::after {
+                transform: rotate(-135deg);
+                top: -7px;
+               }
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100vh;
+                visibility: visible;
+                transform: translate(0px);
+                animation: animeLeft 0.3s forwards;
+                @keyframes animeLeft {
+                    to {
+                        opacity: initial;
+                      }
+                }
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+        .btn-mobile {
+            display: flex;
+            padding: 0 1.2rem;
+            margin: 0px 1.2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            .hamburguer {
+                border-top: 2px solid;
+                width: 20px;
+                display: block;
+                
+                &::after, &::before {
+                    content: "";
+                    display: block;
+                    margin-top: 5px;
+                    width: 20px;
+                    height: 2px;
+                    background: black;
+                    position: relative;
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+}
+

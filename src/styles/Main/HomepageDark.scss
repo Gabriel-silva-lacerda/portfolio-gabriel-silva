@@ -1,0 +1,44 @@
+@import "../Variables/Variables.scss";
+
+.dark {
+    .home-page {
+        z-index: 1;
+        &::before {
+            content: "";
+            background-color: $purbleDark;
+        }
+        h1 {
+            color: $white;
+            &::before {
+              background: $purbleDark;
+            }
+        }
+        .name {
+            border-color: $purbleDark;
+        }
+        p, .point {
+            color: $blackDark;
+        }
+        .strong {
+            color: $white;
+        }
+        .contact-perfil {
+            .contact { 
+                color: $blackDark;
+                border-color: $purbleDark;
+                &::before { 
+                    color: $purbleDark;
+                }
+            }
+            .icon i {
+                color: white;
+            }
+        }
+        .photo-perfil {
+            &::before,
+            &::after {
+                border-color: $purbleDark;
+            }
+        }
+    }
+}

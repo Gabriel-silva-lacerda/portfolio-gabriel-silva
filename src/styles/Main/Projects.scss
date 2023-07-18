@@ -1,0 +1,82 @@
+@import "../Variables/Variables.scss";
+
+.projects-container {
+    padding: 200px 20px 0px 20px;
+    transition: all .5s;
+    .projects {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h1 {
+            font-size: 4.3rem;
+            margin-bottom: 30px;
+            color: $black;
+        }
+        .projects-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            .list-projects {
+                border-radius: 10px;
+                position: relative;
+                background-color: $black;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                border-bottom: 3px solid $purple;
+                img {
+                   width: 100%;
+                   border-top-right-radius: 10px;
+                   border-top-left-radius: 10px;
+                }
+                .projects-especification {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 .8rem;
+                    .name-project {
+                        color: $white;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        border-bottom: 2px solid $purple;
+                    }
+                    .img-projects {
+                        display: flex;
+                        img {
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+                .project-description {
+                    padding: 0.8rem;
+                    span {
+                        color: $white;
+                        font-size: 1rem;
+                    }
+                }
+                .view-more {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    padding: .8rem 0;
+                    .link {
+                        border: none;
+                        padding: 13px 25px;
+                        border-radius: 4px;
+                        display: block;
+                        font-size: .9rem;
+                        font-weight: 500;
+                        background: linear-gradient($colorButton, $purple);
+                        font-weight: bold;
+                        cursor: pointer;
+                        &:hover {
+                            background: linear-gradient($colorHover1, $colorHover2);
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+   
+}
