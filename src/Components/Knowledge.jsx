@@ -3,48 +3,53 @@ import "../styles/Main/Knowledge.scss";
 import "../styles/Main/KnowledgeDark.scss";
 import "../styles/Main/Responsive/KnowledgeResponsive.scss";
 import List from "./ReusedComponents/ListKnowledge";
-import "../assets/logo-html.png";
+import HTML from "../assets/logo-html.png"
+import CSS from "../assets/css-3.svg"
+import JavaScript from "../assets/logo-javascript.webp"
+import ReactIcon from "../assets/react.png"
+import Sass from "../assets/logo-sass.webp"
+import Git from "../assets/Git_icon.svg.png"
 
 const Knowledge = () => {
   const icons = [
     {
       text: "HTML",
-      url: "../assets/logo-html.png",
+      url: HTML,
       ulrCertificate: "https://www.origamid.com/certificate/198d719b",
       alt: "image icon html",
       certificate: "Certificado | HTML",
     },
     {
       text: "CSS",
-      url: "src/assets/css-3.svg",
+      url: CSS,
       ulrCertificate: "https://www.origamid.com/certificate/3287d4d4",
       alt: "image icon css",
       certificate: "Certificado | CSS",
     },
     {
       text: "JavaScript",
-      url: "src/assets/logo-javascript.webp",
+      url: JavaScript,
       ulrCertificate: "https://www.origamid.com/certificate/c08a42c9",
       alt: "image icon JavaScript",
       certificate: "Certificado | JavaScript",
     },
     {
       text: "React",
-      url: "src/assets/react.png",
+      url: ReactIcon,
       ulrCertificate: "https://www.origamid.com/certificate/de30adfb",
       alt: "image icon react",
       certificate: "Certificado | React",
     },
     {
       text: "Sass",
-      url: "src/assets/logo-sass.webp",
+      url: Sass,
       ulrCertificate: "",
       alt: "image icon sass",
       certificate: "Certificado | Sass",
     },
     {
       text: "Git",
-      url: "src/assets/Git_icon.svg.png",
+      url: Git,
       ulrCertificate: "",
       alt: "Image icon git",
       certificate: "Certificado | Git",
