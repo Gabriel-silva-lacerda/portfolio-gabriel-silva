@@ -2,16 +2,24 @@ import React from "react";
 import "../styles/Main/Projects.scss";
 import "../styles/Main/ProjectsDark.scss";
 import "../styles/Main/Responsive/ProjectsResponsive.scss";
+import Bikecraft from "../assets/bikecraft.png"
+import Pokedex from "../assets/pokedex.png"
+import Formulario from "../assets/formulario.png"
+import ListaDeAfazeres from "../assets/todolist.png"
+import HTML from "../assets/logo-html.png"
+import CSS from "../assets/css-3.svg"
+import JavaScript from "../assets/logo-javascript.webp"
+import Sass from "../assets/logo-sass.webp"
 
 import ListProjects from "./ReusedComponents/ListProjects";
 
 const Projects = () => {
   const informations = [
     {
-      urlProjetc: "src/assets/bikecraft.png",
-      urlIconHtml: "src/assets/logo-html.png",
-      urlIconCss: "src/assets/css-3.svg",
-      urlIconJavaScript: "src/assets/logo-javascript.webp",
+      urlProjetc: Bikecraft,
+      urlIconHtml: HTML,
+      urlIconCss: CSS,
+      urlIconJavaScript: JavaScript,
       linkProject: "https://gabriel-silva-lacerda.github.io/bikcraft/",
       linkRepository: "https://github.com/Gabriel-silva-lacerda/bikcraft",
       altProject: "Projeto Bikecraft",
@@ -22,10 +30,10 @@ const Projects = () => {
       text: "Desenvolvimento de um site relacionados a vendas de bicicletas, onde o mesmo possui links, que descrevem mais sobre os produtos.",
     },
     {
-      urlProjetc: "src/assets/pokedex.png",
-      urlIconHtml: "src/assets/logo-html.png",
-      urlIconCss: "src/assets/logo-sass.webp",
-      urlIconJavaScript: "src/assets/free-javascript.webp",
+      urlProjetc: Pokedex,
+      urlIconHtml: HTML,
+      urlIconCss: Sass,
+      urlIconJavaScript: JavaScript,
       linkProject: "https://gabriel-silva-lacerda.github.io/pokedex/",
       linkRepository: "https://github.com/Gabriel-silva-lacerda/pokedex",
       altProject: "Projeto Pokedex",
@@ -36,10 +44,10 @@ const Projects = () => {
       text: "Aplicação desenvolvida consumindo a poke API, que retorna detalhes sobre o Pokemon. ",
     },
     {
-      urlProjetc: "src/assets/formulario.png",
-      urlIconHtml: "src/assets/logo-html.png",
-      urlIconCss: "src/assets/logo-sass.webp",
-      urlIconJavaScript: "src/assets/free-javascript.webp",
+      urlProjetc: Formulario,
+      urlIconHtml: HTML,
+      urlIconCss: Sass,
+      urlIconJavaScript: JavaScript,
       linkProject: "https://gabriel-silva-lacerda.github.io/formulario/",
       linkRepository: "https://github.com/Gabriel-silva-lacerda/formulario",
       altProject: "Projeto Formulário",
@@ -50,10 +58,10 @@ const Projects = () => {
       text: "Desenvolvimento de um formulário, onde foi colocado em prática meus conhecimentos em validações de inputs.",
     },
     {
-      urlProjetc: "src/assets/todolist.png",
-      urlIconHtml: "src/assets/logo-html.png",
-      urlIconCss: "src/assets/logo-sass.webp",
-      urlIconJavaScript: "src/assets/free-javascript.webp",
+      urlProjetc: ListaDeAfazeres,
+      urlIconHtml: HTML,
+      urlIconCss: Sass,
+      urlIconJavaScript: JavaScript,
       linkProject: "https://gabriel-silva-lacerda.github.io/to-do-list/",
       linkRepository: "https://github.com/Gabriel-silva-lacerda/to-do-list",
       altProject: "Projeto to-do list",
