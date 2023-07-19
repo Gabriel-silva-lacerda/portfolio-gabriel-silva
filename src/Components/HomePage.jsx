@@ -48,7 +48,7 @@ const HomePage = () => {
               </a>
             </span>
             <span className="icon">
-              <a href="https://wa.me/5511969101312" target="blank">
+              <a href="https://wa.me/5511968101312" target="blank">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
             </span>
