@@ -3,12 +3,13 @@ import "../styles/Main/Knowledge.scss";
 import "../styles/Main/KnowledgeDark.scss";
 import "../styles/Main/Responsive/KnowledgeResponsive.scss";
 import List from "./ReusedComponents/ListKnowledge";
+import "../assets/logo-html.png";
 
 const Knowledge = () => {
   const icons = [
     {
       text: "HTML",
-      url: "src/assets/logo-html.png",
+      url: "../assets/logo-html.png",
       ulrCertificate: "https://www.origamid.com/certificate/198d719b",
       alt: "image icon html",
       certificate: "Certificado | HTML",
