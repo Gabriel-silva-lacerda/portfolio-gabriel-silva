@@ -30,6 +30,7 @@
                 .projects-especification {
                     display: flex;
                     justify-content: space-between;
+                    flex-wrap: wrap;
                     align-items: center;
                     padding: 0 .8rem;
                     .name-project {
@@ -37,6 +38,7 @@
                         font-size: 1.2rem;
                         font-weight: bold;
                         border-bottom: 2px solid $purple;
+                        
                     }
                     .img-projects {
                         display: flex;

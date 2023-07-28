@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Footer/Footer.scss";
 import "../styles/Footer/FooterDark.scss";
 import "../styles/Footer/FooterResponsive/FooterResponsive.scss";
 
 const Footer = ({ className }) => {
+  const [focus, setFocus] = useState(false);
+
   return (
     <footer className={`footer-container ${className}`} id="contact">
       <div className="footer-contact">
@@ -26,8 +28,24 @@ const Footer = ({ className }) => {
             <label htmlFor="name">Nome</label>
           </div>
           <div className="single-input">
-            <input required type="email" name="email" />
-            <label htmlFor="email">E-mail</label>
+            <input
+              required
+              type="email"
+              name="email"
+              onChange={(e) =>
+                e.target.value ? setFocus(true) : setFocus(false)
+              }
+            />
+            <label
+              htmlFor="email"
+              style={
+                focus
+                  ? { transform: "translateY(-28px)" }
+                  : { left: "0" }
+              }
+            >
+              E-mail
+            </label>
           </div>
           <div className="text-area">
             <textarea
