@@ -7,7 +7,7 @@ import Pokedex from "../assets/pokedex.png";
 import Formulario from "../assets/formulario.png";
 import ListaDeAfazeres from "../assets/todolist.png";
 import CatalogoDeAnimes from "../assets/catalogo-animes.png";
-import Calculadora from "../assets/calculadora.png";
+import WeatherForecast from "../assets/weather-forecast.png";
 import HTML from "../assets/logo-html.png";
 import CSS from "../assets/css-3.svg";
 import JavaScript from "../assets/logo-javascript.webp";
@@ -34,6 +34,21 @@ const Projects = () => {
       text: "Desenvolvimento de um catálogo utilizando a KITSU API, que permite a realização da busca dos animes, adicioná-los aos favoritos e a descrição do mesmo.",
     },
 
+    {
+      urlProjetc: WeatherForecast,
+      urlIconHtml: HTML,
+      urlIconCss: Sass,
+      urlIconJavaScript: ReactIcon,
+      linkProject: "https://personal-project-weather-forecast.netlify.app/",
+      linkRepository:
+        "https://github.com/Gabriel-silva-lacerda/previsao-do-tempo",
+      altProject: "Projeto previsão do tempo",
+      altHtml: "image icon html",
+      altCss: "image icon sass",
+      altJavaScript: "image icon React",
+      nameProject: "Previsão do tempo",
+      text: "Aplicação desenvolvida consumindo a API OPENWEATHER, que retorna detalhes sobre a previsão do tempo. ",
+    },
     {
       urlProjetc: Pokedex,
       urlIconHtml: HTML,
@@ -89,20 +104,6 @@ const Projects = () => {
       altJavaScript: "image icon JavaScript",
       nameProject: "BikeCraft",
       text: "Desenvolvimento de um site relacionados a vendas de bicicletas, onde o mesmo possui links, que descrevem mais sobre os produtos.",
-    },
-    {
-      urlProjetc: Calculadora,
-      urlIconHtml: HTML,
-      urlIconCss: CSS,
-      urlIconJavaScript: JavaScript,
-      linkProject: "https://gabriel-silva-lacerda.github.io/calculadora/",
-      linkRepository: "https://github.com/Gabriel-silva-lacerda/calculadora",
-      altProject: "Projeto Calculadora",
-      altHtml: "image icon html",
-      altCss: "image icon css",
-      altJavaScript: "image icon JavaScript",
-      nameProject: "Calculadora",
-      text: "Desenvolvimento de uma calculadora, onde a mesma possibilita a realização de cálculos relacionados à Matemática básica como operações da adição, subtração, multiplicação, divisão e raiz quadrada",
     },
   ];
 
