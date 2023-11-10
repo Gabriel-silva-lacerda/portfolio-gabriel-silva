@@ -17,20 +17,26 @@ const HomePage = () => {
           <p>
             Moro em São Paulo - SP, sou um desenvolvedor front-end apaixonado
             por criar aplicativos na Web, tentando sempre trazer a melhor
-            experiência para o usuário. Estou em busca da minha primeira
-            oportunidade como desenvolvedor front-end. Tenho conhecimentos em
+            experiência para o usuário. Possuo conhecimentos em
             <span className="strong"> HTML</span>,
             <span className="strong"> CSS</span>,
             <span className="strong"> JavaScript</span>,
+            <span className="strong"> React</span>,
+            <span className="strong"> Typescript</span>,
+            <span className="strong"> WordPress</span>,
             <span className="strong"> SASS</span>,
-            <span className="strong"> Git</span>
-            <span className="strong"> e React</span>. Atualmente cursando
+            <span className="strong"> Git e Github</span>. Trabalho como
+            desenvolvedor front-end, utilizando com maior frequência as
+            tecnologias: <span className="strong">React</span>,{" "}
+            <span className="strong">Typescript</span> e{" "}
+            <span className="strong">Wordpress</span>. Atualmente cursando
             <span className="strong">
               {" "}
-              Análise e desenvolvimento de sistemas
+              Análise e desenvolvimento de sistemas (3º Semestre)
             </span>
-            , e simultaneamente me aprimorando através de cursos extracurriculares. Sou uma
-            pessoa focada, interativa e com grande vontade de aprender!
+            , e simultaneamente me aprimorando através de cursos
+            extracurriculares. Sou uma pessoa focada, interativa e com grande
+            vontade de aprender!
           </p>
           <div className="contact-perfil">
             <span className="contact">Contate-me</span>

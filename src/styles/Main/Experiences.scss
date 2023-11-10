@@ -1,0 +1,45 @@
+@import "../Variables/Variables.scss";
+
+.experiences-container {
+  padding: 200px 20px 0 20px;
+  h2 {
+    font-size: 4.3rem;
+    margin-bottom: 30px;
+    color: #2c2c2c;
+  }
+  div {
+    &:nth-child(1) {
+      .experiences {
+        .experiences-name {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          div {
+            span {
+              display: block;
+              color: #2c2c2c;
+              &:nth-child(1) {
+                font-size: 2.4rem;
+                border-bottom: 3px solid $purple;
+              }
+              &:nth-child(2) {
+                font-size: 1.8rem;
+                margin-top: 1rem;
+              }
+            }
+          }
+          .year {
+            display: block;
+            color: #2c2c2c;
+            font-size: 1.5rem;
+          }
+        }
+      }
+      p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 2rem;
+      }
+    }
+  }
+}

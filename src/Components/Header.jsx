@@ -19,6 +19,9 @@ const Header = ({ className, functionTheme }) => {
             <a href="#start">Início</a>
           </li>
           <li>
+            <a href="#experiences">Experiências</a>
+          </li>
+          <li>
             <a href="#knowledge">Conhecimentos</a>
           </li>
           <li>

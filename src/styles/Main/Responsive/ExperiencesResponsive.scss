@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .experiences-container {
+    h2 {
+      font-size: 3rem;
+    }
+    div {
+      &:nth-child(1) {
+        .experiences {
+          .experiences-name {
+            flex-direction: column;
+            justify-content: initial;
+            align-items: initial;
+            div {
+              span {
+                &:nth-child(1) {
+                  display: inline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .experiences-container {
+    h2 {
+      font-size: 2.7rem;
+    }
+  }
+}

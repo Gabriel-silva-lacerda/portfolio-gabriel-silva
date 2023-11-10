@@ -5,6 +5,7 @@ import Knowledge from "./Components/Knowledge";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Theme from "./Components/Functions/Theme";
+import Experiences from "./Components/Experiences";
 
 const App = () => {
   const { handleClick, toglleClassCheck } = Theme();
@@ -17,6 +18,7 @@ const App = () => {
       <Header functionTheme={handleClick} className={toglleClassCheck} />
       <main>
         <HomePage className={toglleClassCheck} />
+        <Experiences className={toglleClassCheck} />
         <Knowledge className={toglleClassCheck} />
         <Projects className={toglleClassCheck} />
       </main>

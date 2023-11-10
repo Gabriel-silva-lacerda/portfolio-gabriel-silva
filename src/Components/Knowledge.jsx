@@ -3,12 +3,13 @@ import "../styles/Main/Knowledge.scss";
 import "../styles/Main/KnowledgeDark.scss";
 import "../styles/Main/Responsive/KnowledgeResponsive.scss";
 import List from "./ReusedComponents/ListKnowledge";
-import HTML from "../assets/logo-html.png"
-import CSS from "../assets/css-3.svg"
-import JavaScript from "../assets/logo-javascript.webp"
-import ReactIcon from "../assets/react.png"
-import Sass from "../assets/logo-sass.webp"
-import Git from "../assets/Git_icon.svg.png"
+import HTML from "../assets/logo-html.png";
+import CSS from "../assets/css-3.svg";
+import JavaScript from "../assets/logo-javascript.webp";
+import ReactIcon from "../assets/react.png";
+import TypeScriptIcon from "../assets/logo-typescript.png";
+import Sass from "../assets/logo-sass.webp";
+import Git from "../assets/Git_icon.svg.png";
 
 const Knowledge = () => {
   const icons = [
@@ -41,9 +42,16 @@ const Knowledge = () => {
       certificate: "Certificado | React",
     },
     {
+      text: "Typescript",
+      url: TypeScriptIcon,
+      ulrCertificate: "https://www.origamid.com/certificate/96a1bd58",
+      alt: "image icon typescript",
+      certificate: "Certificado | Typescript",
+    },
+    {
       text: "Sass",
       url: Sass,
-      ulrCertificate: "",
+      ulrCertificate: "https://www.origamid.com/certificate/1297790c",
       alt: "image icon sass",
       certificate: "Certificado | Sass",
     },
@@ -58,19 +66,20 @@ const Knowledge = () => {
   return (
     <section className="knowledge" id="knowledge">
       <div className="knowledge-container">
+        <h2>
+          Conhecimentos<span className="point">.</span>
+        </h2>
         <ul className="list-knowledge">
-          {icons.map(
-            ({ url, text, certificate, alt, ulrCertificate }) => (
-              <List
-                key={text}
-                url={url}
-                text={text}
-                certificate={certificate}
-                alt={alt}
-                ulrCertificate={ulrCertificate}
-              />
-            )
-          )}
+          {icons.map(({ url, text, certificate, alt, ulrCertificate }) => (
+            <List
+              key={text}
+              url={url}
+              text={text}
+              certificate={certificate}
+              alt={alt}
+              ulrCertificate={ulrCertificate}
+            />
+          ))}
         </ul>
       </div>
     </section>
