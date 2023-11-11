@@ -13,14 +13,14 @@ const Experiences = () => {
         <div className="experiences">
           <div className="experiences-name">
             <div>
-              <span>Desenvolvedor Front-end.</span>
+              <span>Desenvolvedor Front-end - Estágio</span>
               <span>Empresa: Nambbu</span>
             </div>
             <span className="year">Set 2023 - Atualmente</span>
           </div>
           <p>
             Desenvolvimento de sites com tecnologias como: Wordpress, Elementor,
-            Oxygen, HTML, CSS, JavaScript, PHP, ReactJS, Typescript e NextJS.
+            Oxygen, HTML, Styled Components, JavaScript, PHP, ReactJS, Typescript e NextJS.
           </p>
         </div>
       </div>
