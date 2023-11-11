@@ -8,6 +8,8 @@ import CSS from "../assets/css-3.svg";
 import JavaScript from "../assets/logo-javascript.webp";
 import ReactIcon from "../assets/react.png";
 import TypeScriptIcon from "../assets/logo-typescript.png";
+import TypeScriptReactIcon from "../assets/logo-typescript-react.png";
+import WordpressIcon from "../assets/icone-wordpress.png";
 import Sass from "../assets/logo-sass.webp";
 import Git from "../assets/Git_icon.svg.png";
 
@@ -47,6 +49,20 @@ const Knowledge = () => {
       ulrCertificate: "https://www.origamid.com/certificate/96a1bd58",
       alt: "image icon typescript",
       certificate: "Certificado | Typescript",
+    },
+    {
+      text: "TSX",
+      url: TypeScriptReactIcon,
+      ulrCertificate: "https://www.origamid.com/certificate/a0b382c2",
+      alt: "image icon typescript com react",
+      certificate: "Certificado | TSX",
+    },
+    {
+      text: "Wordpress",
+      url: WordpressIcon,
+      ulrCertificate: "https://www.origamid.com/certificate/94924248",
+      alt: "image icon typescript",
+      certificate: "Certificado | Wordpress",
     },
     {
       text: "Sass",
