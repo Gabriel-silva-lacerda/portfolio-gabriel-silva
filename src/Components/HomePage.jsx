@@ -31,7 +31,7 @@ const HomePage = () => {
             <span className="strong"> Git e Github</span>. Trabalho como
             desenvolvedor front-end, utilizando com maior frequência as
             tecnologias: <span className="strong">React</span>,{" "}
-            <span className="strong"> Axiox</span>,
+            <span className="strong"> Axios</span>,
             <span className="strong"> Styled Components</span>,
             <span className="strong">Typescript</span>, e{" "}
             <span className="strong">Wordpress</span>. Atualmente cursando
