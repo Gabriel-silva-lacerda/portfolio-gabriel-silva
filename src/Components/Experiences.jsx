@@ -20,7 +20,7 @@ const Experiences = () => {
           </div>
           <p>
             Desenvolvimento de sites com tecnologias como: Wordpress, Elementor,
-            Oxygen, HTML, Styled Components, JavaScript, PHP, ReactJS, Typescript e NextJS.
+            Oxygen, HTML, Styled Components, JavaScript, PHP, ReactJS, Axios, Typescript e NextJS.
           </p>
         </div>
       </div>

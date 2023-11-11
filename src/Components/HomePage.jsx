@@ -22,14 +22,18 @@ const HomePage = () => {
             <span className="strong"> CSS</span>,
             <span className="strong"> JavaScript</span>,
             <span className="strong"> React</span>,
-            <span className="strong"> Typescript</span>,
+            <span className="strong"> React Query</span>,
+            <span className="strong"> Axios</span>,
             <span className="strong"> Styled Components</span>,
+            <span className="strong"> Typescript</span>,
             <span className="strong"> WordPress</span>,
             <span className="strong"> SASS</span>,
             <span className="strong"> Git e Github</span>. Trabalho como
             desenvolvedor front-end, utilizando com maior frequência as
             tecnologias: <span className="strong">React</span>,{" "}
-            <span className="strong">Typescript</span>, <span className="strong"> Styled Components</span> e{" "}
+            <span className="strong"> Axiox</span>,
+            <span className="strong"> Styled Components</span>,
+            <span className="strong">Typescript</span>, e{" "}
             <span className="strong">Wordpress</span>. Atualmente cursando
             <span className="strong">
               {" "}
