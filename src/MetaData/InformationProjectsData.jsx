@@ -34,7 +34,7 @@ export const informations = [
     altReactQuery: "imagem icon react query",
     altJavaScript: "imagem icon React",
     nameProject: "Carrinho de compras",
-    text: "O projeto desenvolvido utilizando tecnologias como React, Styled Components, TypeScript, React Query, axios e um hook personalizado para gerenciar operações de busca. O foco principal foi criar uma experiência de carrinho de compras eficiente e agradável para o usuário.",
+    text: "O projeto foi desenvolvido utilizando tecnologias como React, Styled Components, TypeScript, React Query, axios e um hook personalizado para gerenciar operações de busca. O foco principal foi criar uma experiência de carrinho de compras eficiente e agradável para o usuário.",
   },
   {
     urlProjetc: CatalogoDeAnimes,
