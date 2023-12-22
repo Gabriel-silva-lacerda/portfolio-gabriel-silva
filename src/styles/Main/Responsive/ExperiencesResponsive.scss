@@ -1,22 +1,15 @@
 @media (max-width: 800px) {
   .experiences-container {
+    padding-top: 100px;
     h2 {
       font-size: 3rem;
     }
     div {
       &:nth-child(1) {
         .experiences {
-          .experiences-name {
-            flex-direction: column;
-            justify-content: initial;
-            align-items: initial;
-            div {
-              span {
-                &:nth-child(1) {
-                  display: inline;
-                }
-              }
-            }
+          flex-direction: column;
+          ul {
+            width: 100%;
           }
         }
       }

@@ -5,7 +5,7 @@ import ListaDeAfazeres from "../assets/todolist.png";
 import CatalogoDeAnimes from "../assets/catalogo-animes.png";
 import WeatherForecast from "../assets/weather-forecast.png";
 import HTML from "../assets/logo-html.png";
-import CSS from "../assets/css-3.svg";
+import Motion from "../assets/framer-motion.webp";
 import JavaScript from "../assets/logo-javascript.webp";
 import Sass from "../assets/logo-sass.webp";
 import ReactIcon from "../assets/react.png";
@@ -13,6 +13,8 @@ import Typescript from "../assets/logo-typescript.png";
 import StyledComponents from "../assets/logo-styled-components.png";
 import ReactQuery from "../assets/logo-react-query.png";
 import Axios from "../assets/logo-axios.png";
+import Advogada from "../assets/advogada.png";
+import Advogado from "../assets/advogado.png";
 
 export const informations = [
   {
@@ -48,10 +50,38 @@ export const informations = [
     nameProject: "Catálogo de animes",
     text: "Desenvolvimento de um catálogo utilizando a KITSU API, que permite a realização da busca dos animes, adicioná-los aos favoritos e a descrição do mesmo.",
   },
-
+  {
+    urlProjetc: Advogada,
+    urlIconTypescript: Typescript,
+    urlIconReactQuery: Motion,
+    urlIconCss: StyledComponents,
+    urlIconJavaScript: ReactIcon,
+    linkProject: "https://advogada-ednea.vercel.app/",
+    linkRepository:
+      "https://github.com/Gabriel-silva-lacerda/portfolio-advogado-ednea",
+    altProject: "Projeto Portfólio",
+    altCss: "imagem icon styled components",
+    altJavaScript: "imagem icon React",
+    nameProject: "Projeto Freelancer | Portfólio",
+    text: "Desenvolvimento de um Portfólio para adovogado, utilizando react, styled components, typescript e framer motion. ",
+  },
+  {
+    urlProjetc: Advogado,
+    urlIconTypescript: Typescript,
+    urlIconReactQuery: Motion,
+    urlIconCss: StyledComponents,
+    urlIconJavaScript: ReactIcon,
+    linkProject: "https://portfolio-advogado-marcio-calisto.vercel.app/",
+    linkRepository:
+      "https://github.com/Gabriel-silva-lacerda/portfolio-advogado",
+    altProject: "Projeto Portfólio",
+    altCss: "imagem icon styled components",
+    altJavaScript: "imagem icon React",
+    nameProject: "Projeto Freelancer | Portfólio",
+    text: "Desenvolvimento de um Portfólio para adovogado, utilizando react, styled components,  typescript e framer motion.",
+  },
   {
     urlProjetc: WeatherForecast,
-    urlIconHtml: HTML,
     urlIconCss: Sass,
     urlIconJavaScript: ReactIcon,
     linkProject: "https://personal-project-weather-forecast.netlify.app/",
@@ -77,33 +107,5 @@ export const informations = [
     altJavaScript: "imagem icon JavaScript",
     nameProject: "Pokedex",
     text: "Aplicação desenvolvida consumindo a poke API, que retorna detalhes sobre o Pokemon. ",
-  },
-  {
-    urlProjetc: ListaDeAfazeres,
-    urlIconHtml: HTML,
-    urlIconCss: Sass,
-    urlIconJavaScript: JavaScript,
-    linkProject: "https://gabriel-silva-lacerda.github.io/to-do-list/",
-    linkRepository: "https://github.com/Gabriel-silva-lacerda/to-do-list",
-    altProject: "Projeto to-do list",
-    altHtml: "imagem icon html",
-    altCss: "imagem icon sass",
-    altJavaScript: "imagem icon JavaScript",
-    nameProject: "Lista de afazeres",
-    text: "Desenvolvimento de uma lista de afazeres. Uma estrutura para poder anotar os seus compromissos.",
-  },
-  {
-    urlProjetc: Bikecraft,
-    urlIconHtml: HTML,
-    urlIconCss: CSS,
-    urlIconJavaScript: JavaScript,
-    linkProject: "https://gabriel-silva-lacerda.github.io/bikcraft/",
-    linkRepository: "https://github.com/Gabriel-silva-lacerda/bikcraft",
-    altProject: "Projeto Bikecraft",
-    altHtml: "imagem icon html",
-    altCss: "imagem icon css",
-    altJavaScript: "imagem icon JavaScript",
-    nameProject: "BikeCraft",
-    text: "Desenvolvimento de um site relacionados a vendas de bicicletas, onde o mesmo possui links, que descrevem mais sobre os produtos.",
   },
 ];

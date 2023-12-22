@@ -10,35 +10,101 @@
   div {
     &:nth-child(1) {
       .experiences {
+        display: flex;
+        gap: 2rem;
+
+        ul {
+          background: $black;
+          border-radius: 10px;
+          width: 30%;
+          height: 100%;
+
+          li {
+            font-size: 1.7rem;
+            font-weight: 600;
+            padding: 1rem 0;
+            color: $white;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            &:last-child {
+              &::before {
+                display: none;
+              }
+            }
+
+            &::before {
+              content: "";
+              width: 100%;
+              height: 2px;
+              background: $purple;
+              position: absolute;
+              top: 63px;
+            }
+          }
+        }
+
         .experiences-name {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          div {
+          border: 2px solid $purple;
+          padding: 2rem;
+          width: 100%;
+          .developer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
             span {
               display: block;
-              color: #2c2c2c;
+              color: $lightBlack;
               &:nth-child(1) {
-                font-size: 2.4rem;
-                border-bottom: 3px solid $purple;
+                font-size: 2rem;
+                position: relative;
+                &::before {
+                  content: "";
+                  width: 100%;
+                  height: 2px;
+                  background: $purple;
+                  position: absolute;
+                  bottom: 0;
+                }
               }
               &:nth-child(2) {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
                 margin-top: 1rem;
               }
             }
           }
           .year {
             display: block;
-            color: #2c2c2c;
+            color: $lightBlack;
             font-size: 1.5rem;
           }
         }
+
+        .hide {
+          display: none;
+        }
+
+        .selected {
+          color: $purple; /* Substitua pela cor desejada */
+        }
       }
-      p {
-        font-size: 1.2rem;
-        font-weight: 400;
-        margin-top: 2rem;
+
+      .developer-description {
+        span {
+          color: $purple;
+          font-weight: 600;
+          display: block;
+          margin: 1rem 0;
+          font-size: 1.3rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+          font-weight: 400;
+          // margin-top: 2rem;
+        }
       }
     }
   }
