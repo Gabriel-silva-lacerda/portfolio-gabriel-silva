@@ -9,60 +9,49 @@ const HomePage = () => {
     <section className="home-page" id="start">
       <div className="especification">
         <div>
-          <h1>
-            Prazer em conhecê-los! Me chamo{" "}
-            <span className="name">Gabriel Silva</span> e tenho 22 anos
-            <span className="point">.</span>
-          </h1>
-          <p>
-            Moro em São Paulo - SP, sou um desenvolvedor front-end apaixonado
-            por criar aplicativos na Web, tentando sempre trazer a melhor
-            experiência para o usuário. Possuo conhecimentos em
-            <span className="strong"> HTML</span>,
-            <span className="strong"> CSS</span>,
-            <span className="strong"> JavaScript</span>,
-            <span className="strong"> React</span>,
-            <span className="strong"> React Query</span>,
-            <span className="strong"> Axios</span>,
-            <span className="strong"> Styled Components</span>,
-            <span className="strong"> Typescript</span>,
-            <span className="strong"> WordPress</span>,
-            <span className="strong"> SASS</span>,
-            <span className="strong"> Git e Github</span>. Trabalho como
-            desenvolvedor front-end, utilizando com maior frequência as
-            tecnologias: <span className="strong">React</span>,{" "}
-            <span className="strong"> Axios</span>,
-            <span className="strong"> Styled Components</span>,
-            <span className="strong">Typescript</span>, e{" "}
-            <span className="strong">Wordpress</span>. Atualmente cursando
-            <span className="strong">
-              {" "}
-              Análise e desenvolvimento de sistemas (3º Semestre)
-            </span>
-            , e simultaneamente me aprimorando através de cursos
-            extracurriculares. Sou uma pessoa focada, interativa e com grande
-            vontade de aprender!
-          </p>
-          <div className="contact-perfil">
-            <span className="contact">Contate-me</span>
-            <span className="icon">
-              <a
-                href="https://www.linkedin.com/in/gabriel-s-6608b1120/"
-                target="blank"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-            </span>
-            <span className="icon">
-              <a href="https://github.com/Gabriel-silva-lacerda" target="blank">
-                <i className="fa-brands fa-github"></i>
-              </a>
-            </span>
-            <span className="icon">
-              <a href="https://wa.me/5511968101312" target="blank">
-                <i className="fa-brands fa-whatsapp"></i>
-              </a>
-            </span>
+          <div>
+            <h1>
+              Prazer em conhecê-los! Me chamo{" "}
+              <span className="name">Gabriel Silva</span>, tenho 24 anos
+              <span className="point">.</span>
+            </h1>
+            <p>
+              Sou desenvolvedor front-end com foco em <span className="strong">Angular</span> e quase 2 anos de experiência em criação de aplicações web integradas com APIs REST. Atualmente trabalho na <span className="strong">Confitec</span> como desenvolvedor full-stack, utilizando <span className="strong">Angular</span>, <span className="strong">.NET</span>, <span className="strong">Entity Framework</span> e <span className="strong">Ionic</span>. 
+              <br /><br />
+              Atuei também na <span className="strong">Nambbu</span>, desenvolvendo sites e sistemas com <span className="strong">WordPress</span>, <span className="strong">React</span>, <span className="strong">TypeScript</span>, <span className="strong">Styled Components</span> e <span className="strong">React Query</span>. 
+              <br /><br />
+              Busco constantemente evoluir, aprimorando minhas habilidades com projetos práticos, cursos e novos desafios.
+            </p>
+            <div className="contact-perfil">
+              <span className="contact">Contate-me</span>
+              <span className="icon">
+                <a
+                  href="https://www.linkedin.com/in/gabriel-s-6608b1120/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+              </span>
+              <span className="icon">
+                <a
+                  href="https://github.com/Gabriel-silva-lacerda"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-github"></i>
+                </a>
+              </span>
+              <span className="icon">
+                <a
+                  href="https://wa.me/5511968101312"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-whatsapp"></i>
+                </a>
+              </span>
+            </div>
           </div>
         </div>
 

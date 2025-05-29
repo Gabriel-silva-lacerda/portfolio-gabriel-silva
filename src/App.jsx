@@ -19,7 +19,6 @@ const App = () => {
       <main>
         <HomePage className={toglleClassCheck} />
         <Experiences className={toglleClassCheck} />
-        <Knowledge className={toglleClassCheck} />
         <Projects className={toglleClassCheck} />
       </main>
       <Footer className={toglleClassCheck} />

@@ -15,8 +15,48 @@ import ReactQuery from "../assets/logo-react-query.png";
 import Axios from "../assets/logo-axios.png";
 import Advogada from "../assets/advogada.png";
 import Advogado from "../assets/advogado.png";
+import EasyRetro from "../assets/easy-retro.png";
+import AngularIcon from "../assets/angular.png";
+import RXJS from "../assets/rxjs.svg";
+import CardapioOnline from "../assets/cardapio-online.png";
+import Tailwind from "../assets/tailwind.svg";
+import Dotnet from "../assets/dotnet.png";
+import Supabase from "../assets/supabase.png";
+import Stripe from "../assets/stripe.webp";
+
 
 export const informations = [
+  {
+    urlProjetc: CardapioOnline,
+    urlIconTypescript: Dotnet,
+    urlIconHtml: Tailwind,
+    urlIconCss: Supabase,
+    urlIconJavaScript: AngularIcon,
+    urlIconReactQuery: RXJS,
+    urlIconAxios: Stripe,
+    linkRepository: "https://github.com/Gabriel-silva-lacerda/cardapio-virtual",
+    linkRepositoryBackend: 'https://github.com/Gabriel-silva-lacerda/cardapio-virtual-back',
+    altProject: "Projeto cardápio virtual",
+    altHtml: "imagem icon tailwind",
+    altCss: "imagem icon rxjs",
+    altJavaScript: "imagem icon Angular",
+    nameProject: "Cardápio Virtual",
+    text: "Aplicação de cardápio virtual desenvolvida com Angular, Tailwind, Supabase e .NET. O sistema permite que empresas cadastrem seus produtos, gerenciem pedidos e recebam pagamentos via Stripe. Utiliza Supabase para autenticação, banco de dados e regras de acesso, além de integração com .NET para criar sessões de checkout seguras e direcionadas para a conta da empresa. Projeto focado em estrutura SaaS, suportando múltiplas empresas e planos de assinatura. (Em desenvolvimento, ainda não publicado)",
+  },
+  {
+    urlProjetc: EasyRetro,
+    urlIconHtml: Sass,
+    urlIconCss: RXJS,
+    urlIconJavaScript: AngularIcon,
+    linkProject: "https://easy-retro.vercel.app/dashboard",
+    linkRepository: "https://github.com/Gabriel-silva-lacerda/easy-retro",
+    altProject: "Projeto easy retro",
+    altHtml: "imagem icon sass",
+    altCss: "imagem icon rxjs",
+    altJavaScript: "imagem icon Angular",
+    nameProject: "Easy retro",
+    text: "Projeto pessoal inspirado na plataforma EasyRetro, desenvolvido com Angular. A aplicação permite a criação de quadros e cartões de feedback. O back-end foi implementado com JSON Server, hospedado gratuitamente na Render, o que pode ocasionar certa lentidão no carregamento das ações durante os testes. Idealizado como exercício prático de componentes reutilizáveis, gerenciamento de estado e consumo de APIs REST em Angular."
+  },
   {
     urlProjetc: ShoppingCart,
     urlIconTypescript: Typescript,
@@ -79,33 +119,5 @@ export const informations = [
     altJavaScript: "imagem icon React",
     nameProject: "Projeto Freelancer | Portfólio",
     text: "Desenvolvimento de um Portfólio para adovogado, utilizando react, styled components,  typescript e framer motion.",
-  },
-  {
-    urlProjetc: WeatherForecast,
-    urlIconCss: Sass,
-    urlIconJavaScript: ReactIcon,
-    linkProject: "https://personal-project-weather-forecast.netlify.app/",
-    linkRepository:
-      "https://github.com/Gabriel-silva-lacerda/previsao-do-tempo",
-    altProject: "Projeto previsão do tempo",
-    altHtml: "imagem icon html",
-    altCss: "imagem icon sass",
-    altJavaScript: "imagem icon React",
-    nameProject: "Previsão do tempo",
-    text: "Aplicação desenvolvida consumindo a API OPENWEATHER, que retorna detalhes sobre a previsão do tempo. ",
-  },
-  {
-    urlProjetc: Pokedex,
-    urlIconHtml: HTML,
-    urlIconCss: Sass,
-    urlIconJavaScript: JavaScript,
-    linkProject: "https://gabriel-silva-lacerda.github.io/pokedex/",
-    linkRepository: "https://github.com/Gabriel-silva-lacerda/pokedex",
-    altProject: "Projeto Pokedex",
-    altHtml: "imagem icon html",
-    altCss: "imagem icon sass",
-    altJavaScript: "imagem icon JavaScript",
-    nameProject: "Pokedex",
-    text: "Aplicação desenvolvida consumindo a poke API, que retorna detalhes sobre o Pokemon. ",
-  },
+  }
 ];

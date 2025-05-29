@@ -12,6 +12,7 @@ const ListProjects = ({
   text,
   linkProject,
   linkRepository,
+  linkRepositoryBackend,
   altProject,
   altHtml,
   altCss,
@@ -60,12 +61,20 @@ const ListProjects = ({
         <span>{text}</span>
       </div>
       <div className="view-more">
-        <a className="link" href={linkProject} target="blank">
-          Projeto
-        </a>
+        { linkProject && 
+          <a className="link" href={linkProject} target="blank">
+            Projeto
+          </a>
+        }
+        
         <a className="link" href={linkRepository} target="blank">
-          Repositório
+          Repositório front-end
         </a>
+        { linkRepositoryBackend && 
+          <a className="link" href={linkRepositoryBackend} target="blank">
+            Repositório back-end
+          </a>
+        }
       </div>
     </li>
   );
